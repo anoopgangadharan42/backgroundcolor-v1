@@ -15,16 +15,17 @@ body{
  height: 50vh;
  flex-direction: column;
 }
-.btn{
-  margin-top: 10px;
-  padding: 10px;
-  font-size: 1rem;
-}
-.item{
+.box-item{
   align-items: center;
  display: flex;
  justify-content: center;
  height: 50vh;
- overflow-x: hidden;
+ 
  flex-direction: column;
+}
+.btn{
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
 }
